@@ -23,8 +23,8 @@ header{
   background: $gray_blue;
 
   #header_in{
-    padding-top: 15px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
   }
 
   @media (max-width: 550px) {
@@ -497,7 +497,6 @@ h1{
   letter-spacing:2px;
   font-weight:bold;
   color:white;
-  line-height:40px;
 }
 
 
@@ -510,11 +509,13 @@ h1{
     }
     
     #sub_cover{
-    padding-top:20px;
-    padding-bottom :20px;}
+    padding: 40px 0;
+    }
     
     #sub_cover h2{
-    font-size:16px;}
+    font-size:16px;
+    margin: 0;
+    }
     
     .pc_sidemenu{
     display:none;}
